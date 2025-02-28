@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText, ArrowDown } from 'lucide-react';
-import photo from './Passport size photo - college (1).jpg';
+import photo from './images/Passport size photo - college (1).jpg';
 
 export function Hero() {
   const scrollToContact = () => {
