@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText, ArrowDown } from 'lucide-react';
-import photo from './images/Passport size photo - college (1).jpg';
+import Resume from '../Images/Tharunsabari RESUME.pdf';
 
 export function Hero() {
   const scrollToContact = () => {
@@ -12,7 +12,7 @@ export function Hero() {
       <div className="text-center space-y-8">
         <div className="mb-8 profile-image">
           <img
-            src={photo}
+            src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&q=80&w=400&h=400"
             alt="Sketch Portrait"
             className="w-48 h-48 mx-auto rounded-full border-4 border-gray-900 shadow-lg grayscale hover:grayscale-0 transition-all duration-500"
           />
@@ -36,8 +36,9 @@ export function Hero() {
             Contact Me
           </button>
           <a
-            href="/resume.pdf"
+            href={Resume}
             target="_blank"
+            rel="noopener noreferrer" 
             className="px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-100 transition-colors inline-flex items-center space-x-2 font-sans transform hover:scale-105"
           >
             <FileText className="w-5 h-5" />
